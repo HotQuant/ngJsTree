@@ -97,7 +97,8 @@
             scope: {
                 treeData: '=ngModel',
                 treeEventsObj: '=?treeEventsObj',
-                shouldApply : '&'
+                shouldApply : '&',
+				tree: '=tree'
             },
             controller: 'jsTreeCtrl',
             link: function link(scope, elm, attrs, controller) {
